@@ -1,0 +1,27 @@
+{
+  "name": "rhythm-enlightenment",
+  "version": "0.0.1",
+  "description": "《声律启蒙》('_Rhythm Enlightenment_') with pinyin.",
+  "scripts": {
+    "generate": "esno generate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marrowleaves/Rhythm-Enlightenment.git"
+  },
+  "author": "marrowleaves <marrowleaves@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marrowleaves/Rhythm-Enlightenment/issues"
+  },
+  "homepage": "https://github.com/marrowleaves/Rhythm-Enlightenment#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/ramda": "^0.27.64",
+    "esno": "^0.14.0",
+    "pinyin-pro": "^3.7.1",
+    "ramda": "^0.28.0",
+    "typescript": "^4.5.5"
+  }
+}

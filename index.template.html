@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-lzh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>声律启蒙</title>
+    <style>
+      @font-face {
+        font-family: 'LXGW WenKai Screen';
+        src: url(./LXGWWenKaiScreen.ttf);
+      }
+      html {
+        font-size: 24px;
+        font-family: 'LXGW WenKai Screen', KaiTi;
+      }
+      article {
+        break-after: page;
+      }
+      h3 {
+        margin: 0.2em 0;
+      }
+      section {
+        margin-bottom: 0.2em;
+        padding-bottom: 0.2em;
+        border-bottom: 1px dashed #ccc;
+      }
+      @media print {
+        section:last-child {
+          margin: 0;
+          padding: 0;
+          border: none;
+        }
+      }
+      ruby > rt {
+        width: 54px;
+        font-size: 18px;
+        font-family: 'LXGW WenKai Screen', 'Microsoft YaHei';
+        text-align: center;
+      }
+      .line {
+        display: block;
+        line-height: 26px;
+      }
+      .punctuation {
+        display: inline-block;
+        width: 0;
+        position: relative;
+        left: -12px;
+      }
+    </style>
+  </head>
+  <body>
+    __CONTENT__
+  </body>
+</html>
